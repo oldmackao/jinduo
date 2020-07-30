@@ -32,7 +32,7 @@
     },
     "versionFirst": "4.5.2",
     "uniqCompNum": 28,
-    "versionPublish": "4.12.4",
+    "versionPublish": "5.0.18",
     "snow": "",
     "favicon": "@PROJECT_PATH@/assets/images/logo-512-128x128.png",
     "noImageResize": "",
@@ -107,7 +107,8 @@
     ],
     "firebaseSnippet": "",
     "gdpr": "",
-    "imageResize": true
+    "imageResize": true,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -895,7 +896,7 @@
             "slides": [
               {
                 "src": "file:///D:/OneDrive/%E9%BA%A5%E5%A8%81%E5%B7%A5%E4%BD%9C%E5%AE%A4/jinduo/assets/images/001-2000x2666-37.jpg",
-                "active": false,
+                "active": true,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/001-2000x2666-37-480x640-63.jpg",
@@ -915,7 +916,7 @@
               },
               {
                 "src": "file:///D:/OneDrive/%E9%BA%A5%E5%A8%81%E5%B7%A5%E4%BD%9C%E5%AE%A4/jinduo/assets/images/003-2000x2666-4.jpg",
-                "active": true,
+                "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/003-2000x2666-4-480x640-70.jpg",

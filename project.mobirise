@@ -32,12 +32,12 @@
     },
     "versionFirst": "4.5.2",
     "uniqCompNum": 28,
-    "versionPublish": "5.0.18",
+    "versionPublish": "5.0.21",
     "snow": "",
     "favicon": "@PROJECT_PATH@/assets/images/logo-512-128x128.png",
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": "",
+    "cookiesAlert": false,
     "html_before": "<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>\r\n<style>\r\n/* Go Top 按鈕 */\r\n#goTop {\r\nposition: fixed;\r\nbottom: 5px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */\r\nright: 5px; /* 與右方的距離 */\r\nwidth: 40px; /* 按鈕原始寬度 */\r\nheight: 40px; /* 按鈕原始高度 */\r\nopacity: 0.4; /* 按鈕原始透明度 */\r\nz-index: 10;\r\ncursor: pointer;\r\ntransition: all .5s; /* 動畫效果 持續期間 */\r\n-webkit-transition: all .5s;\r\n-moz-transition: all .5s;\r\n}\r\n#goTop:hover { /* 滑鼠經過按鈕時 */\r\nopacity: 1; /* 透明度 */\r\nwidth: 80px; /* 按鈕寬度 */\r\nheight: 80px; /* 按鈕高度 */\r\n}\r\n</style>",
     "headbody": "",
     "botbody": "<!-- Go Top 按鈕+動畫 start -->\r\n<img id=\"goTop\" src=\"http://4.bp.blogspot.com/-28LaVG5DtBo/VQ_XOQosQQI/AAAAAAAALY4/T4uKguB0Ttk/s100/up-button.png\" title=\"Back to Top\"/>\r\n<script>\r\n$.extend($.easing, {\r\neaseOutExpo: function (x, t, b, c, d) {\r\nreturn (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;\r\n}\r\n});\r\n$(\"#goTop\").click(function(){\r\n$(\"html, body\").animate({scrollTop: 0}, 1000, \"easeOutExpo\");\r\n});\r\n</script>\r\n<!-- Go Top 按鈕+動畫 end, Designed by WFU BLOG -->",
@@ -106,9 +106,10 @@
       }
     ],
     "firebaseSnippet": "",
-    "gdpr": "",
     "imageResize": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "robotsSwitcher": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
